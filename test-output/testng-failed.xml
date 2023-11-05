@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="D:/Automation/AutomationProject(failed)">
+    <classes>
+      <class name="org.saucedemo.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="validUserNamewithvalidPasswordloginTest"/>
+        </methods>
+      </class> <!-- org.saucedemo.LoginPageTest -->
+    </classes>
+  </test> <!-- D:/Automation/AutomationProject(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
