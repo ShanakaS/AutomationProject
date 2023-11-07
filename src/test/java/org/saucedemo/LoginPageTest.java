@@ -16,7 +16,7 @@ public class LoginPageTest extends TestBase {
 
     PropertyFileReader property = new PropertyFileReader();
 
-    String url = property.getProperty("config", "url");
+  //  String url = property.getProperty("config", "url");
     String path = property.getProperty("config", "chromedriverpath");
     LoginPage login;
 
@@ -30,7 +30,7 @@ public class LoginPageTest extends TestBase {
     public void setup() {
         System.setProperty("webdriver.chrome.driver", path);
         driver = new ChromeDriver();
-        driver.get(url);
+        driver.get(prop.getProperty("BASEURL"));
         driver.manage().window().maximize();
         login = new LoginPage();
 
